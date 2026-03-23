@@ -1,7 +1,7 @@
 import axios from "axios";
 import { Weather } from "./types";
 
-const API_KEY = "328b715e3a1fa1d2b0f2e4deea2c0af5";
+const API_KEY = "";
 
 export const fetchWeather = async (city: string): Promise<Weather> => {
   const res = await axios.get(
